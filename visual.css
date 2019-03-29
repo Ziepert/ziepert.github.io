@@ -1,0 +1,135 @@
+html{
+	scroll-behavior: smooth;
+}
+.remarc{
+width: 100px;
+height: 100px;
+background-color: green;
+}
+p{
+width: 500px;
+font-size:25px;
+line-height: 35px;
+margin: 0 auto;
+}
+header{
+height: 250px;
+width: 2000px;
+background-image: url("./img/headback.jpg");
+}
+main{
+text-align: center;
+}
+footer{
+height: 50px;
+width:2000px;
+background-color: gray;
+padding: 10px;
+left: 0px;
+}
+.footera{
+	background-color: garay;
+
+}
+.headera{
+font-size: 50px;
+color: white;
+padding: 10px;
+display: inline-block;
+	}
+
+.menu{
+padding: 10px;
+text-decoration: none;
+}
+.elmenu{
+display: inline-block;
+padding: 10px;
+font-size: 15px;
+background-color: white;
+width: 150px;
+margin: 5px;
+
+}
+.elmenu:visted{
+color: black;
+}
+.elmenu:hover{
+color: yellow;
+}
+.elmenu:active{
+color: yellow;
+}
+.elmenu:link{
+color: black;
+}
+h1{
+color: white;
+text-align: center;
+}
+h2{
+	text-align: center;
+}
+.image{
+margin:20px; 
+padding:25px;
+height:250px;
+display:inline-block;
+vertical-align: top;
+}
+
+.hapugi{
+
+height: 250px;}
+.divhap{
+display:inline-block;
+}
+.nick{
+font-size: 15px;
+}
+.top{
+	text-align: center;
+}
+.uper{
+	font-size: 20px;
+
+	position: fixed;
+	bottom: 15px;
+	left: 30px
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  margin: 5px 10px;
+  padding: 10px 30px;
+  position: relative;
+  border: 2px solid #f1c40f;
+  color: blue;
+  font-family: 'Montserrat', sans-serif; 
+  transition: .4s;
+}
+a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border: 2px solid rgba(0,0,0,0);
+  transition: .4s;
+}
+.button-container a:hover:after {
+  border-color: blue;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px);
+}
+.image2 {
+	}
+.menua{
+	text-align: left;
+}
